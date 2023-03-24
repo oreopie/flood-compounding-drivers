@@ -1,4 +1,5 @@
 ##  Identification of compounding drivers of river floods
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.7765151-blue.svg)](https://doi.org/10.5281/zenodo.7765151)
 
 ### Overview
 The repository contains the codes to reproduce the main procedure for identifying the compounding drivers of river floods and the associated flood complexity, and the data used for producing the main figures in the paper:
