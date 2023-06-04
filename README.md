@@ -12,16 +12,16 @@ The aim of this research is to investigate the compounding effects of various dr
 The repository is structured as follows:
                                           
 ```
-|-- data/
-|   |-- sample.csv                     # Demo data for a river basin
-|-- libs/                              # Custom functions (released after acceptance)
-|   |-- plots.py
-|   |-- utils.py
-|-- outputs/                           # Folder to save the output to
-|-- analyze_individual_catchment.ipynb # Jupyter Notebook for the demo to obtain Figs. S4 and 4A
-|-- requirements.txt                   # PyPI dependencies
-|-- results.csv                        # Main results for all catchments
-|-- run.py                             # Standalone script to obtain results (released after acceptance)
+|- data/
+|   |- sample.csv                      # Demo data for a river basin
+|- libs/                               # Custom functions (released after acceptance)
+|   |- plots.py
+|   |- utils.py
+|- outputs/                            # Folder to save the output to
+|- analyze_individual_catchment.ipynb  # Jupyter Notebook for the demo to obtain Figs. S4 and 4A
+|- requirements.txt                    # PyPI dependencies
+|- results.csv                         # Main results for all catchments
+|- run.py                              # Standalone script to obtain results (released after acceptance)
 ```
 
 ##  Quick Start
