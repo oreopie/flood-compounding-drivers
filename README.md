@@ -3,7 +3,7 @@
 
 This repository contains the code to reproduce the main procedure for identifying the compounding drivers of river floods and the associated flood complexity, as presented in the paper:
 
-> Jiang *et al.*, **Compounding effects in flood drivers challenge estimates of extreme river floods** (*Submitted to Journal*)
+Jiang et al., [Compounding effects in flood drivers challenge estimates of extreme river floods](https://doi.org/10.1126/sciadv.adl4005). Science Advances, 10(13),eadl4005(2024).
 
 ## Overview
 
@@ -14,14 +14,14 @@ The repository is structured as follows:
 ```
 |- data/
 |   |- sample.csv                     # Demo data for a river basin
-|- libs/                              # Custom functions (released after acceptance)
+|- libs/                              # Custom functions
 |   |- plots.py
 |   |- utils.py
 |- outputs/                           # Folder to save the output to
 |- analyze_individual_catchment.ipynb # Jupyter Notebook for the demo to obtain Figs. S4 and 4A
 |- requirements.txt                   # PyPI dependencies
 |- results.csv                        # Main results for all catchments
-|- run.py                             # Standalone script to obtain results (released after acceptance)
+|- run.py                             # Standalone script to obtain results
 ```
 
 ##  Quick Start
@@ -47,13 +47,19 @@ d) Alternatively, run the standalone script to get the results:
 
 `python run.py --input_path=./data/sample.csv --basin_size=827.00 --output_dir=./outputs/`
 
+The result should be as follows:
+```
+prop_rr  prop_tg  prop_sm  prop_sp  prop_mu  mag_ratio  mag_ttest_p  flood_com  flood_com_p  est_err
+0.622    0.081    0.297    0.378    0.514    1.261      0.057        0.073      0           -37.017
+```
+
 ##  Description of `results.csv` (used to generate Figs. 2-5 in the text)
 
 Description of columns in `results.csv`:
 
 ```
-- lat:         Latitude coordinates of station (*released after acceptance*)
-- long:        Longitude coordinates of station (*released after acceptance*)
+- lat:         Latitude coordinates of station
+- long:        Longitude coordinates of station
 - prop_rr:     Proportion of recent rainfall as a main driver of AM floods
 - prop_tg:     Proportion of recent temperature as a main driver of AM floods
 - prop_sm:     Proportion of soil moisture as a main driver of AM floods
@@ -81,15 +87,10 @@ After all grid-based data are prepared, the catchment average data are then calc
 
 ## Contact Information
 
-For any questions or inquiries about this research or repository, please contact the corresponding author:
-
-- Name: Shijie Jiang
-- Email: shijie.jiang(at)hotmail.com
+For any questions or inquiries about this research or repository, please contact the corresponding author of the paper.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 When using the code from this repository, we kindly request that you cite the paper.
-
-Thank you for your interest in our work!
