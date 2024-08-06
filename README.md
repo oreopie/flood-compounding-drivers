@@ -3,7 +3,7 @@
 
 This repository contains the code to reproduce the main procedure for identifying the compounding drivers of river floods and the associated flood complexity, as presented in the paper:
 
-Jiang et al., [Compounding effects in flood drivers challenge estimates of extreme river floods](https://doi.org/10.1126/sciadv.adl4005). Science Advances, 10(13),eadl4005(2024).
+Jiang et al. (2024). [Compounding effects in flood drivers challenge estimates of extreme river floods](https://doi.org/10.1126/sciadv.adl4005). Science Advances, 10(13), eadl4005.
 
 ## Overview
 
